@@ -29,8 +29,6 @@
         
         #content{
             width: 100%;
-            height: 600px;
-            background-color: #007cc0;
         }
 
         
@@ -65,4 +63,15 @@
 
         .header ul li a{
             display:block;
+        }
+
+
+        .content form {
+
+        }
+
+        .content form .user-form{
+            margin: 0 auto;
+            width:80%;
+            height: 50px;
         }
