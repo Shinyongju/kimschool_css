@@ -1,0 +1,91 @@
+/* ID LIST */
+#header{
+    width:100%;
+    position: fixed;
+
+}
+#slide{
+    height: 450px;
+    background-color: #D499B9;
+    background: url('https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+}
+#content{
+    background-color: skyblue;
+}
+#footer{
+    height: 80px;
+    background-color: #EC7357;
+}
+
+/* Container */
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    height: inherit;
+    /*background-color: rgba(0, 0, 0, 0.3);*/
+}
+
+/* ■■■■ class List ■■■■ */
+/* class List - 1. header */
+.header{
+    overflow: hidden;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+
+}
+.header h1{
+    float:left;
+    width:20%;
+    font-size: 41px;
+}
+.header .nav{
+    float:left;
+    width: 75%;
+}
+.header .nav ul{
+    overflow: hidden;
+}
+.header .nav ul li{
+    float: left;
+    width:25%;
+}
+.header .nav ul li a{
+    font-size: 16px;
+    display:block;
+}
+
+.header .search{
+    float:left;
+    width:5%;
+    font-size: 9px;
+    text-align: right;
+}
+
+/* class List - 2. slide */
+.slide{}
+
+/* class List - 3. content */
+.content{}
+.content .cbox{}
+/* class List - 3-1. cbox1 */
+.content .cbox.cbox1{
+    height: 300px;
+}
+
+/* class List - 3-2. cbox2 */
+.content .cbox.cbox2{
+    height: 300px;
+}
+
+
+/* class List - 3-3. cbox3 */
+.content .cbox.cbox3{
+    height: 300px;
+}
+
+/* class List - 4. footer */
+.footer{}
