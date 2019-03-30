@@ -1,144 +1,199 @@
 /* ID LIST */
-#header{
-    width:100%;
-    position: fixed;
-
+#header {
+   width: 100%;
+   position: fixed;
 }
-#slide{
-    height: 450px;
-    background-color: #D499B9;
-    background: url('https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60');
-    background-position: center;
-    background-size: cover;
-    background-repeat: repeat;
+#slide {
+   height: 450px;
+   background-color: #d499b9;
+   background: url('https://images.unsplash.com/photo-1553633004-0b7255515c71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60');
+   background-position: center;
+   background-size: cover;
+   background-repeat: repeat;
 }
-#content{
-    background-color: skyblue;
+#content {
 }
-#footer{
-    height: 80px;
-    background-color: #EC7357;
+#footer {
+   height: 80px;
+   background-color: #ec7357;
 }
 
 /* Container */
-.container{
-    width: 1000px;
-    margin: 0 auto;
-    height: inherit;
-    /*background-color: rgba(0, 0, 0, 0.3);*/
+.container {
+   width: 1000px;
+   margin: 0 auto;
+   height: inherit;
+   /*background-color: rgba(0, 0, 0, 0.3);*/
 }
 
 /* ■■■■ class List ■■■■ */
 /* class List - 1. header */
-.header{
-    overflow: hidden;
-    text-align: center;
-    height: 80px;
-    line-height: 80px;
+.header {
+   overflow: hidden;
+   text-align: center;
+   height: 80px;
+   line-height: 80px;
+   color: #fff;
+}
+.header h1 {
+   float: left;
+   width: 30%;
+   font-size: 32px;
+}
+.header .nav {
+   float: left;
+   width: 65%;
+}
+.header .nav ul {
+   overflow: hidden;
+}
+.header .nav ul li {
+   float: left;
+   width: 25%;
+}
+.header .nav ul li a {
+   font-size: 16px;
+   display: block;
+}
 
-}
-.header h1{
-    float:left;
-    width:20%;
-    font-size: 41px;
-}
-.header .nav{
-    float:left;
-    width: 75%;
-}
-.header .nav ul{
-    overflow: hidden;
-}
-.header .nav ul li{
-    float: left;
-    width:25%;
-}
-.header .nav ul li a{
-    font-size: 16px;
-    display:block;
-}
-
-.header .search{
-    float:left;
-    width:5%;
-    font-size: 9px;
-    text-align: right;
+.header .search {
+   float: left;
+   width: 5%;
+   font-size: 9px;
+   text-align: right;
 }
 
 /* class List - 2. slide */
-.slide{}
+.slide {
+}
 
 /* class List - 3. content */
-.content{}
-.content .cbox{}
+.content {
+}
+.content .cbox {
+}
 
 /* class List - 3-1. cbox1 */
-.content .cbox.cbox1{
-    overflow: hidden;
+.content .cbox.cbox1 {
+   overflow: hidden;
 }
 
-.cbox1-all{
-    float:left;
-    width:50%;
-    height: 300px;
+.cbox1-all {
+   float: left;
+   width: 50%;
+   height: 300px;
 }
 
-.cbox.cbox1 .cbox1-left{
-    background-color: blue;
-    background: url('https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60');
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.cbox.cbox1 .cbox1-left {
+   background-color: blue;
+   background: url('https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
 }
 
-
-.cbox.cbox1 .cbox1-left p{
-    margin-left: 60px;
-    margin-bottom: 31px;
-    font-size: 24px;
+.cbox.cbox1 .cbox1-left p {
+   margin-left: 60px;
+   margin-bottom: 31px;
+   font-size: 24px;
 }
-.cbox.cbox1 .cbox1-left a{
-    display: inline-block;
-    background-color : black;
-    color: #fff;
-    margin-left: 60px;
-    padding: 10px 30px 10px 30px;
-    text-transform: uppercase;
-    /*padding: 10px 30px*/
-    transition: transform 0.1s;
+.cbox.cbox1 .cbox1-left a {
+   display: inline-block;
+   background-color: black;
+   color: #fff;
+   margin-left: 60px;
+   padding: 10px 30px 10px 30px;
+   text-transform: uppercase;
+   /*padding: 10px 30px*/
+   transition: transform 0.1s;
 }
-.cbox.cbox1 .cbox1-left a:hover{
-    transform: scale(1.1);
-}
-
-.cbox.cbox1 .cbox1-left .cbox1-left-name{
-    margin-top: 60px;
-}
-.cbox.cbox1 .cbox1-left .cbox1-left-title{
-    font-size: 51px;
-}
-.cbox.cbox1 .cbox1-left .cbox1-left-description{
-    margin-bottom: 40px;
+.cbox.cbox1 .cbox1-left a:hover {
+   transform: scale(1.1);
 }
 
-
-.cbox.cbox1 .cbox1-right{
-    background-color: red;
-    background: url('https://images.unsplash.com/photo-1504274066651-8d31a536b11a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60');
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.cbox.cbox1 .cbox1-left .cbox1-left-name {
+   margin-top: 60px;
+}
+.cbox.cbox1 .cbox1-left .cbox1-left-title {
+   font-size: 51px;
+}
+.cbox.cbox1 .cbox1-left .cbox1-left-description {
+   margin-bottom: 40px;
 }
 
+.cbox.cbox1 .cbox1-right {
+   background-color: red;
+   background: url('https://images.unsplash.com/photo-1504274066651-8d31a536b11a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
 
 /* class List - 3-2. cbox2 */
-.content .cbox.cbox2{
+.content .cbox.cbox2 {
 }
 
-
+.cbox.cbox2 .cbox2-1 {
+   margin: 90px 0 30px 0;
+}
+.cbox.cbox2 .cbox2-1 h2 {
+   font-size: 42px;
+   margin: 30px 0;
+}
+.cbox.cbox2 .cbox2-1 h4 {
+}
+.cbox.cbox2 .cbox2-2 {
+   overflow: hidden;
+}
+.cbox.cbox2 .cbox2-2 .cbox2-2-desc {
+   float: left;
+   width: 33.3333%;
+   margin: 30px 0;
+}
+.cbox.cbox2 .cbox2-2 .cbox2-2-desc img {
+   width: 100%;
+   height: 200px;
+}
+.cbox.cbox2 .cbox2-2 .cbox2-2-desc .cbox2-2-desc-tit {
+   width: 80%;
+   margin: 0 auto;
+}
+.cbox.cbox2 .cbox2-2 .cbox2-2-desc h3 {
+   font-size: 23px;
+   line-height: 30px;
+   margin: 30px 0;
+}
+.cbox.cbox2 .cbox2-2 .cbox2-2-desc p {
+   margin: 30px 0;
+}
 /* class List - 3-3. cbox3 */
-.content .cbox.cbox3{
+.content .cbox.cbox3 {
+   background-color: rgb(189, 164, 164);
+}
+.cbox.cbox3 .cbox3-wrapper {
+   padding: 80px 0;
+   position: relative;
+}
+
+.cbox.cbox3 .cbox3-wrapper .cbox3-wrapper-tit {
+   width: 70%;
+}
+.cbox.cbox3 .cbox3-wrapper h2 {
+   margin: 30px 0;
+   font-size: 29px;
+   line-height: 29px;
+}
+.cbox.cbox3 .cbox3-wrapper p {
+}
+.cbox.cbox3 .cbox3-wrapper a {
+   position: absolute;
+   right: 10%;
+   top: 40%;
+   padding: 19px 10px;
+   background-color: black;
+   color: #fff;
 }
 
 /* class List - 4. footer */
-.footer{}
+.footer {
+}
